@@ -1,0 +1,53 @@
+name: Nifty TRI Daily Update
+
+on:
+  schedule:
+    # 9:00 PM IST = 15:30 UTC. Weekdays only (Mon-Fri).
+    # If you want to also catch Monday for the weekend forward-fill,
+    # the script already handles it (3-day write window).
+    - cron: '30 15 * * 1-5'
+  workflow_dispatch:  # Manual trigger from the Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit the data/ snapshot back
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write service account credentials
+        run: |
+          mkdir -p credentials
+          echo "${{ secrets.GCP_SA_KEY_B64 }}" | base64 -d > credentials/service_account.json
+        # GCP_SA_KEY_B64 is the base64-encoded JSON key of the service account.
+        # Generate with: base64 -w0 service_account.json | pbcopy
+
+      - name: Stage 1 — Fetch from niftyindices.com
+        run: python src/fetch_niftyindices.py
+
+      - name: Stage 2 — Write to Google Sheets
+        run: python src/write_to_sheets.py
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: snapshot $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Clean up credentials
+        if: always()
+        run: rm -f credentials/service_account.json
