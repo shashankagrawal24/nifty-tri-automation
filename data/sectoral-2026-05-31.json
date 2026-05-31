@@ -1,0 +1,1799 @@
+{
+  "fetched_at_utc": "2026-05-31T16:39:35Z",
+  "window": {
+    "start": "2026-04-29",
+    "end": "2026-05-31"
+  },
+  "tri": {
+    "NIFTY AUTO": [
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "35001.96",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "35649.22",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "35140.05",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "35116.90",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "34525.10",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "34484.19",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "34388.75",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "34102.71",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "34003.90",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "34596.28",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "34568.39",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "34355.07",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "34691.68",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "35502.21",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "36174.25",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "36280.57",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "35594.60",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "34757.33",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "34539.19",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "34393.08",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842375916849900",
+        "Index Name": "Nifty Auto",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "34616.21",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY BANK": [
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "75764.06",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "76622.61",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "76956.51",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "77236.93",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "75507.24",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "74646.83",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "74818.37",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "74604.56",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "74783.18",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "75025.34",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "75485.66",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "74547.37",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "74685.52",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "75919.29",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "77133.47",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "78161.04",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "78068.52",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "76068.75",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "76530.94",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "76509.82",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842377119995700",
+        "Index Name": "Nifty Bank",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "77263.20",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY CHEMICALS": [
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "42046.06",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "42712.89",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "42771.74",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "42598.15",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "41952.29",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "41989.15",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "41798.46",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "42025.77",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "41570.74",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "41956.61",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "41904.62",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "41387.47",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "41259.15",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "42285.74",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "42606.74",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "42528.61",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "42362.79",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "41347.43",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "41255.35",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "40951.03",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842378338767200",
+        "Index Name": "Nifty Chemicals",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "40950.42",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY CONSUMER DURABLES": [
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "40722.67",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "41393.03",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "41132.18",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "41570.51",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "41078.85",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "40980.31",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "40771.97",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "40850.92",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "40672.45",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "41416.60",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "41450.38",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "41016.16",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "40342.98",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "41845.67",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "43464.88",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "43166.90",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "43538.89",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "43161.79",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "43577.98",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "43417.15",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842379510663900",
+        "Index Name": "Nifty Consumer Durables",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "44110.28",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY FINANCIAL SERVICES": [
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "32244.68",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "32749.42",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "32978.42",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "33194.43",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "32468.73",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "32094.50",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "32167.50",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "32153.24",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "32237.64",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "32230.14",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "32341.15",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "31889.35",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "31915.35",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "32573.42",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "33025.49",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "33581.55",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "33509.54",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "32651.43",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "32775.20",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "32575.84",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842380630824200",
+        "Index Name": "Nifty Financial Services",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "32901.59",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY FMCG": [
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "81522.87",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "82775.06",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "82916.13",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "82801.26",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "82901.26",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "82923.95",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "83348.01",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "83946.53",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "83974.13",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "84223.65",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "83774.63",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "83487.07",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "83238.00",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "84462.00",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "84396.42",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "84235.70",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "84882.42",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "85101.83",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "84561.52",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "84241.70",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842381948203200",
+        "Index Name": "Nifty FMCG",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "85390.31",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY HEALTHCARE INDEX": [],
+    "NIFTY IT": [
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "41862.21",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "41612.55",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "41715.89",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "41717.81",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "41483.35",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "41639.20",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "41874.59",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "42050.85",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "40733.41",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "39767.97",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "39256.37",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "40054.56",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "40511.19",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "42081.63",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "42174.55",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "41671.32",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "41993.40",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "41762.88",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "41718.15",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "42116.67",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842390792109700",
+        "Index Name": "Nifty IT",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "41960.78",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY MEDIA": [
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "1726.71",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "1737.54",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "1686.05",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "1690.06",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "1685.29",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "1710.48",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "1716.58",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "1741.78",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "1721.44",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "1760.76",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "1726.60",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "1711.26",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "1711.98",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "1760.84",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "1805.77",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "1805.04",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "1801.18",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "1776.97",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "1775.51",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "1785.18",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842392278316300",
+        "Index Name": "Nifty Media",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "1794.48",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY METAL": [
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "20389.11",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "20809.78",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "20467.33",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "20244.50",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "20132.22",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "20044.07",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "20003.11",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "19968.56",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "19977.99",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "20176.17",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "20573.09",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "20161.34",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "19540.25",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "19608.56",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "19797.46",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "19967.27",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "19912.87",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "19700.61",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "19674.98",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "19463.18",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842393240358500",
+        "Index Name": "Nifty Metal",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "19875.01",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY OIL & GAS": [
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "17175.16",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "17610.56",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "17658.77",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "17672.54",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "17439.01",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "17447.06",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "17418.63",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "17145.24",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "17117.29",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "17252.57",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "17546.23",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "17539.05",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "17317.62",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "17387.95",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "17786.42",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "17954.76",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "17973.15",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "17941.76",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "17992.27",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "17933.31",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842394245288000",
+        "Index Name": "Nifty Oil & Gas",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "18047.75",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY PHARMA": [
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "30409.50",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "30865.99",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "30795.09",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "30814.43",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "30688.64",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "31084.43",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "31024.83",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "31055.09",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "30924.55",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "30764.60",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "30660.02",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "29842.05",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "29773.18",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "30184.72",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "30109.62",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "30139.45",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "30107.99",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "29432.00",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "29315.38",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "29055.77",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842397057836400",
+        "Index Name": "Nifty Pharma",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "29047.22",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY REALTY": [
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "29 May 2026",
+        "TotalReturnsIndex": "868.49",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "27 May 2026",
+        "TotalReturnsIndex": "870.72",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "26 May 2026",
+        "TotalReturnsIndex": "867.88",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "25 May 2026",
+        "TotalReturnsIndex": "872.35",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "22 May 2026",
+        "TotalReturnsIndex": "859.44",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "21 May 2026",
+        "TotalReturnsIndex": "860.21",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "20 May 2026",
+        "TotalReturnsIndex": "851.28",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "19 May 2026",
+        "TotalReturnsIndex": "846.47",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "18 May 2026",
+        "TotalReturnsIndex": "834.52",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "15 May 2026",
+        "TotalReturnsIndex": "839.34",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "14 May 2026",
+        "TotalReturnsIndex": "854.69",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "13 May 2026",
+        "TotalReturnsIndex": "848.09",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "12 May 2026",
+        "TotalReturnsIndex": "849.68",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "11 May 2026",
+        "TotalReturnsIndex": "886.09",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "08 May 2026",
+        "TotalReturnsIndex": "913.94",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "07 May 2026",
+        "TotalReturnsIndex": "918.23",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "06 May 2026",
+        "TotalReturnsIndex": "912.50",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "05 May 2026",
+        "TotalReturnsIndex": "889.10",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "04 May 2026",
+        "TotalReturnsIndex": "901.82",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "30 Apr 2026",
+        "TotalReturnsIndex": "880.56",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63915842398497360800",
+        "Index Name": "Nifty Realty",
+        "Date": "29 Apr 2026",
+        "TotalReturnsIndex": "893.95",
+        "NTR_Value": "-"
+      }
+    ]
+  },
+  "errors": []
+}
