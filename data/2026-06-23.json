@@ -1,0 +1,294 @@
+{
+  "fetched_at_utc": "2026-06-23T17:24:44Z",
+  "window": {
+    "start": "2026-06-18",
+    "end": "2026-06-23"
+  },
+  "tri": {
+    "NIFTY 50": [
+      {
+        "RequestNumber": "Tri63917832284358092200",
+        "Index Name": "Nifty 50",
+        "Date": "23 Jun 2026",
+        "TotalReturnsIndex": "36077.17",
+        "NTR_Value": "31356.47"
+      },
+      {
+        "RequestNumber": "Tri63917832284358092200",
+        "Index Name": "Nifty 50",
+        "Date": "22 Jun 2026",
+        "TotalReturnsIndex": "36489.39",
+        "NTR_Value": "31716.82"
+      },
+      {
+        "RequestNumber": "Tri63917832284358092200",
+        "Index Name": "Nifty 50",
+        "Date": "19 Jun 2026",
+        "TotalReturnsIndex": "36353.45",
+        "NTR_Value": "31598.67"
+      },
+      {
+        "RequestNumber": "Tri63917832284358092200",
+        "Index Name": "Nifty 50",
+        "Date": "18 Jun 2026",
+        "TotalReturnsIndex": "36519.02",
+        "NTR_Value": "31756.88"
+      }
+    ],
+    "NIFTY 100": [
+      {
+        "RequestNumber": "Tri63917832285084663600",
+        "Index Name": "Nifty 100",
+        "Date": "23 Jun 2026",
+        "TotalReturnsIndex": "34442.83",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832285084663600",
+        "Index Name": "Nifty 100",
+        "Date": "22 Jun 2026",
+        "TotalReturnsIndex": "34850.43",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832285084663600",
+        "Index Name": "Nifty 100",
+        "Date": "19 Jun 2026",
+        "TotalReturnsIndex": "34680.54",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832285084663600",
+        "Index Name": "Nifty 100",
+        "Date": "18 Jun 2026",
+        "TotalReturnsIndex": "34830.38",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY 500": [
+      {
+        "RequestNumber": "Tri63917832285920624200",
+        "Index Name": "Nifty 500",
+        "Date": "23 Jun 2026",
+        "TotalReturnsIndex": "36899.44",
+        "NTR_Value": "33957.92"
+      },
+      {
+        "RequestNumber": "Tri63917832285920624200",
+        "Index Name": "Nifty 500",
+        "Date": "22 Jun 2026",
+        "TotalReturnsIndex": "37294.64",
+        "NTR_Value": "34323.2"
+      },
+      {
+        "RequestNumber": "Tri63917832285920624200",
+        "Index Name": "Nifty 500",
+        "Date": "19 Jun 2026",
+        "TotalReturnsIndex": "37106.05",
+        "NTR_Value": "34149.63"
+      },
+      {
+        "RequestNumber": "Tri63917832285920624200",
+        "Index Name": "Nifty 500",
+        "Date": "18 Jun 2026",
+        "TotalReturnsIndex": "37165.62",
+        "NTR_Value": "34213.37"
+      }
+    ],
+    "NIFTY MIDCAP 150": [
+      {
+        "RequestNumber": "Tri63917832286647179900",
+        "Index Name": "Nifty Midcap 150",
+        "Date": "23 Jun 2026",
+        "TotalReturnsIndex": "29147.49",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832286647179900",
+        "Index Name": "Nifty Midcap 150",
+        "Date": "22 Jun 2026",
+        "TotalReturnsIndex": "29427.17",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832286647179900",
+        "Index Name": "Nifty Midcap 150",
+        "Date": "19 Jun 2026",
+        "TotalReturnsIndex": "29299.50",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832286647179900",
+        "Index Name": "Nifty Midcap 150",
+        "Date": "18 Jun 2026",
+        "TotalReturnsIndex": "29193.51",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY SMALLCAP 250": [
+      {
+        "RequestNumber": "Tri63917832287420655800",
+        "Index Name": "Nifty Smallcap 250",
+        "Date": "23 Jun 2026",
+        "TotalReturnsIndex": "22604.44",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832287420655800",
+        "Index Name": "Nifty Smallcap 250",
+        "Date": "22 Jun 2026",
+        "TotalReturnsIndex": "22734.45",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832287420655800",
+        "Index Name": "Nifty Smallcap 250",
+        "Date": "19 Jun 2026",
+        "TotalReturnsIndex": "22561.31",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832287420655800",
+        "Index Name": "Nifty Smallcap 250",
+        "Date": "18 Jun 2026",
+        "TotalReturnsIndex": "22432.42",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY LARGEMIDCAP 250": [
+      {
+        "RequestNumber": "Tri63917832288170670700",
+        "Index Name": "NIFTY LargeMidcap 250",
+        "Date": "23 Jun 2026",
+        "TotalReturnsIndex": "21506.02",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832288170670700",
+        "Index Name": "NIFTY LargeMidcap 250",
+        "Date": "22 Jun 2026",
+        "TotalReturnsIndex": "21735.42",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832288170670700",
+        "Index Name": "NIFTY LargeMidcap 250",
+        "Date": "19 Jun 2026",
+        "TotalReturnsIndex": "21635.52",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832288170670700",
+        "Index Name": "NIFTY LargeMidcap 250",
+        "Date": "18 Jun 2026",
+        "TotalReturnsIndex": "21639.82",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY500 MULTICAP 50:25:25": [
+      {
+        "RequestNumber": "Tri63917832288920686800",
+        "Index Name": "Nifty500 Multicap 50:25:25",
+        "Date": "23 Jun 2026",
+        "TotalReturnsIndex": "21366.76",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832288920686800",
+        "Index Name": "Nifty500 Multicap 50:25:25",
+        "Date": "22 Jun 2026",
+        "TotalReturnsIndex": "21574.19",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832288920686800",
+        "Index Name": "Nifty500 Multicap 50:25:25",
+        "Date": "19 Jun 2026",
+        "TotalReturnsIndex": "21456.86",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832288920686800",
+        "Index Name": "Nifty500 Multicap 50:25:25",
+        "Date": "18 Jun 2026",
+        "TotalReturnsIndex": "21452.01",
+        "NTR_Value": "-"
+      }
+    ],
+    "NIFTY REITS & INVITS": [
+      {
+        "RequestNumber": "Tri63917832289713569900",
+        "Index Name": "Nifty REITs & InvITs",
+        "Date": "23 Jun 2026",
+        "TotalReturnsIndex": "2243.17",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832289713569900",
+        "Index Name": "Nifty REITs & InvITs",
+        "Date": "22 Jun 2026",
+        "TotalReturnsIndex": "2235.25",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832289713569900",
+        "Index Name": "Nifty REITs & InvITs",
+        "Date": "19 Jun 2026",
+        "TotalReturnsIndex": "2234.24",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "Tri63917832289713569900",
+        "Index Name": "Nifty REITs & InvITs",
+        "Date": "18 Jun 2026",
+        "TotalReturnsIndex": "2233.67",
+        "NTR_Value": "-"
+      }
+    ]
+  },
+  "price": {
+    "NIFTY MIDSMALLCAP 400": [
+      {
+        "RequestNumber": "His63917832290436342000",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty MidSmallcap 400",
+        "HistoricalDate": "23 Jun 2026",
+        "OPEN": "21209.65",
+        "HIGH": "21245.7",
+        "LOW": "20949.25",
+        "CLOSE": "20991.80"
+      },
+      {
+        "RequestNumber": "His63917832290436342000",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty MidSmallcap 400",
+        "HistoricalDate": "22 Jun 2026",
+        "OPEN": "21154.55",
+        "HIGH": "21198.5",
+        "LOW": "21102.8",
+        "CLOSE": "21165.80"
+      },
+      {
+        "RequestNumber": "His63917832290436342000",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty MidSmallcap 400",
+        "HistoricalDate": "19 Jun 2026",
+        "OPEN": "20900.1",
+        "HIGH": "21085.1",
+        "LOW": "20848.5",
+        "CLOSE": "21050.35"
+      },
+      {
+        "RequestNumber": "His63917832290436342000",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty MidSmallcap 400",
+        "HistoricalDate": "18 Jun 2026",
+        "OPEN": "20907.55",
+        "HIGH": "20974.7",
+        "LOW": "20874.5",
+        "CLOSE": "20961.20"
+      }
+    ]
+  },
+  "errors": []
+}
