@@ -78,9 +78,9 @@ def fetch_tri(index_name: str, start: date, end: date) -> list[dict]:
 def main() -> None:
     today = date.today()
 
-    if not is_last_day_of_month(today):
-        print(f"{today} is not the last day of the month. Skipping monthly job.")
-        sys.exit(0)
+#    if not is_last_day_of_month(today):
+ #       print(f"{today} is not the last day of the month. Skipping monthly job.")
+  #      sys.exit(0)
 
     start = today - timedelta(days=LOOKBACK_DAYS)
     end = today
