@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nifty-tri-automation",
+  "private_key_id": "37f6b33dd496aafdcaef0405c9874f24d78ad3f0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+pDRWC1l8lvrc\nyvGnmCfDrILqzvpSXy4MvBv8uI+HZJE1p7bf0sF+w5xQT+TDZwAbHCf7ja9QMzgV\nGun/g8TufUcDijSrUWhGbxcuFw+m4KWgE/diK3Baa8iU6FWtSpijYnXCKzw55wNa\nsmbjnCfFDZYTstJJTy0Dij69Wxn7Fsf6kUkfZGgBfbcS0CtNp2IFR3wTQ9ljkTZ8\nCjxMLvpXdTB4OIOP4PHbmkEZmZYwEuvF+HuLaIbFtfHbGcsylFl2gPRfsHO2hsmw\nXt6rf/kLnzlLvywuckTe4vNnMQzfOazqbKgy8kh496IxbYxBlCp6M4zm0aYEsP8j\nWzm5tDojAgMBAAECggEABYqeXtXrnvyAhER968I3fa+ZCpxDmHtdyk75fUocGfJp\naiba4PyuVTH4bDk2TBvFXARggSZoLyud+LcUkDHTWp9Xnhm5WDWAk3ONN/DBqrci\n+Vk7OqZKmMZDSVjLjML7Vtx40dER6hj19v/yj7EtUsQHVcE/7ZOYml69XiG0yqCc\n7brM0mlEQ1qFznwagg9ZXeDuUpATtRq8rks14N1vL1fkFRDO/P3bGLwE/g25JI5K\nrrP9+kIsYa3tLc6EuZ4jvzWvvpC/kyei4H3f6TmVBLPjGsssoWWKK4ZGPp3R3EAH\n6HESNgOW3hyJQGjvjc1/FME4imEK1yrN32Q7QhVk4QKBgQD96y7nZF3ucBRDAUSK\n5BAPiZTK3blMyi0W+M4JhIMGifT6ZZbr0jHMV37XwJAioh93HTqqdeD8SDxr5lj4\no26yVSUuHpfgbpy0XUirI5TFZTD8YWoovQpKing/XMOqEQ1BJBKuBvcEYEYSZjPf\nzgi9J1cWNwYnED2l7nC2P5j78QKBgQDAND3jyP0/BykP87lzxngWhIb9m1mY8CSW\ntNZQELvv731U/JtnY82BWtX42/bhTt3sIGLh2SvOPTK47FPmkF/tGNWIIqi/6L4i\nvuU7T9CPqhJYgb6U5zzDwvRXu/BYcs68EoyvtknlZYGsJ+ytSvRC9Y8E6vrE8LxQ\nLT4DO6o7UwKBgQCZNOlVFpsSfi/Lih1ITHlgVpwfl47xxV9VaAQxe/Hu5RiaaOea\nHHaNnBFdrsOJEhc4MLuwFHYO4qsKU69FPp9RHMzVOgJbmYIV1d8927ctL3RSI5kB\nQabO+SO634bzu1wq/NAEjxFGY6yD94S/OjrNnsoODl84/LSlxOvfGxp8kQKBgAOh\neQHSjCYipn3sprYvK5mRS1ODGcAv2SEXrWy5xDMWHRH765uaYQlug9g9n35GFR8e\nxX9qsM8mjMy9eiBC3e0GqRH3RaTKar0RShdCvLfaCJqvaMA7VgSErET0AehJ0unu\nl8XB9cdlkXuFDY2AevjA1sDLB42s1oHVOPSqrd6NAoGALQMC1THpkrBVNIF4EtAi\nCmTheoyKKXW+1shQUnsLBlH5TH1wPdI3KBtt/SrzNei7MUSdaEL2Sv551tntrBS5\nI/vmtxcUj3X5RLC0Esw3Vdt6gofJX49db4tjIaqEOf0zRCmXiwxaqqqoxpwuEVlW\nUWxM5j8dfMqG9WrZLPTzdOQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nifty-tri-bot@nifty-tri-automation.iam.gserviceaccount.com",
+  "client_id": "115879536546786000566",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nifty-tri-bot%40nifty-tri-automation.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
