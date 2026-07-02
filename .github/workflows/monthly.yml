@@ -2,11 +2,8 @@ name: Nifty Sectoral Monthly Update
 
 on:
   schedule:
-    # 9:00 PM IST = 15:30 UTC, on days 28-31 of every month.
-    # The fetch script self-filters to only run on the actual last day,
-    # so 3 of these 4 triggers exit early without doing work.
     - cron: '30 15 28-31 * *'
-  workflow_dispatch:  # Manual trigger always available
+  workflow_dispatch:
 
 jobs:
   update:
@@ -44,6 +41,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --cached --quiet || git commit -m "data: sectoral snapshot $(date -u +%Y-%m-%d)"
+          # Rebase on top of any commits the daily workflow may have pushed
+          # in parallel, then push. Prevents race conditions on days 28-31.
+          git pull --rebase origin main
           git push
 
       - name: Clean up credentials

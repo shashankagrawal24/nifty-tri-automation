@@ -4,9 +4,6 @@ and write TRI values to columns M-Y of the Indices tab.
 
 Writes the full 32-day calendar window (today + 31 days back), forward-filling
 weekend/holiday rows with the previous trading day's value.
-
-Row math:
-  Cell A6 = 2015-12-31, so row(d) = 6 + (d - 2015-12-31).days
 """
 
 import json
@@ -24,11 +21,8 @@ WORKSHEET_NAME = "Indices"
 BASE_DATE = date(2015, 12, 31)
 BASE_ROW = 6
 
-# Number of calendar days back from today to write (inclusive of today).
-# Matches the LOOKBACK_DAYS in fetch_sectoral.py.
 WRITE_WINDOW_DAYS = 32
 
-# Column targets per sectoral index. Keys must match names in fetch_sectoral.py.
 SECTORAL_COLUMNS = {
     "NIFTY AUTO": "M",
     "NIFTY BANK": "N",
@@ -36,7 +30,7 @@ SECTORAL_COLUMNS = {
     "NIFTY CONSUMER DURABLES": "P",
     "NIFTY FINANCIAL SERVICES": "Q",
     "NIFTY FMCG": "R",
-    "NIFTY HEALTHCARE": "S",
+    "NIFTY HEALTHCARE": "S",   # was "NIFTY HEALTHCARE INDEX"
     "NIFTY IT": "T",
     "NIFTY MEDIA": "U",
     "NIFTY METAL": "V",

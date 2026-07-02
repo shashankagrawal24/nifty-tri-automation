@@ -2,17 +2,14 @@ name: Nifty TRI Daily Update
 
 on:
   schedule:
-    # 9:00 PM IST = 15:30 UTC. Weekdays only (Mon-Fri).
-    # If you want to also catch Monday for the weekend forward-fill,
-    # the script already handles it (3-day write window).
     - cron: '30 15 * * 1-5'
-  workflow_dispatch:  # Manual trigger from the Actions tab
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to commit the data/ snapshot back
+      contents: write
 
     steps:
       - name: Checkout
@@ -31,8 +28,6 @@ jobs:
         run: |
           mkdir -p credentials
           echo "${{ secrets.GCP_SA_KEY_B64 }}" | base64 -d > credentials/service_account.json
-        # GCP_SA_KEY_B64 is the base64-encoded JSON key of the service account.
-        # Generate with: base64 -w0 service_account.json | pbcopy
 
       - name: Stage 1 — Fetch from niftyindices.com
         run: python src/fetch_niftyindices.py
@@ -46,6 +41,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --cached --quiet || git commit -m "data: snapshot $(date -u +%Y-%m-%d)"
+          # Rebase on top of any commits the monthly workflow may have pushed
+          # in parallel, then push. Prevents race conditions on days 28-31.
+          git pull --rebase origin main
           git push
 
       - name: Clean up credentials

@@ -1,11 +1,12 @@
 """
 Stage 1 (monthly): Fetch TRI for 13 sectoral indices from niftyindices.com.
 
-Self-filters to last day of the month. The workflow cron triggers on days
-28-31, but this script only proceeds if tomorrow is the 1st of next month
-(i.e. today is the actual last day of THIS month). Otherwise it exits 0.
+Index names below are VERIFIED against the actual dropdown on
+https://www.niftyindices.com/reports/historical-data (screenshot 2026-07-02).
+Do not modify without re-checking the live dropdown.
 
-Writes a snapshot to data/sectoral-<YYYY-MM-DD>.json.
+Self-filters to last day of the month. Writes snapshot to
+data/sectoral-<YYYY-MM-DD>.json.
 """
 
 import json
@@ -18,9 +19,8 @@ import requests
 
 TRI_URL = "https://www.niftyindices.com/Backpage.aspx/getTotalReturnIndexString"
 
-# 13 sectoral indices. If any returns 0 rows on first run, inspect a live
-# request on niftyindices.com via DevTools → Network and copy the exact
-# indexName string here.
+# Exact names from the live niftyindices.com dropdown (verified 2026-07-02).
+# These are also the keys used by write_sectoral_to_sheets.py SECTORAL_COLUMNS.
 SECTORAL_INDICES = [
     "NIFTY AUTO",
     "NIFTY BANK",
@@ -37,7 +37,6 @@ SECTORAL_INDICES = [
     "NIFTY REALTY",
 ]
 
-# Fetch last 32 calendar days so we cover a full month with overlap buffer.
 LOOKBACK_DAYS = 32
 
 HEADERS = {
@@ -79,7 +78,6 @@ def fetch_tri(index_name: str, start: date, end: date) -> list[dict]:
 def main() -> None:
     today = date.today()
 
-    # Self-filter: only proceed on the last day of the month
     if not is_last_day_of_month(today):
         print(f"{today} is not the last day of the month. Skipping monthly job.")
         sys.exit(0)
@@ -87,7 +85,7 @@ def main() -> None:
     start = today - timedelta(days=LOOKBACK_DAYS)
     end = today
 
-    out: dict = {
+    out = {
         "fetched_at_utc": datetime.utcnow().isoformat(timespec="seconds") + "Z",
         "window": {"start": start.isoformat(), "end": end.isoformat()},
         "tri": {},
@@ -98,20 +96,27 @@ def main() -> None:
         try:
             rows = fetch_tri(name, start, end)
             out["tri"][name] = rows
-            print(f"[TRI ] {name}: {len(rows)} rows")
+            if rows:
+                print(f"[OK  ] {name}: {len(rows)} rows")
+                print(f"       sample row: {rows[0]}")
+            else:
+                msg = f"{name}: API returned 0 rows -- check name against live dropdown"
+                print(f"[FAIL] {msg}", file=sys.stderr)
+                out["errors"].append(msg)
             time.sleep(0.4)
         except Exception as e:
             msg = f"TRI fetch failed for {name}: {e}"
-            print(msg, file=sys.stderr)
+            print(f"[ERR ] {msg}", file=sys.stderr)
             out["errors"].append(msg)
 
     data_dir = Path(__file__).resolve().parent.parent / "data"
     data_dir.mkdir(exist_ok=True)
     out_path = data_dir / f"sectoral-{today.isoformat()}.json"
     out_path.write_text(json.dumps(out, indent=2))
-    print(f"\nWrote sectoral snapshot → {out_path}")
+    print(f"\nWrote sectoral snapshot -> {out_path}")
 
     total_ok = sum(1 for v in out["tri"].values() if v)
+    print(f"Summary: {total_ok}/{len(SECTORAL_INDICES)} indices returned data")
     if total_ok == 0:
         print("FATAL: no sectoral data fetched", file=sys.stderr)
         sys.exit(1)
