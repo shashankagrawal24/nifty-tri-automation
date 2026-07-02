@@ -25,11 +25,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Write service account credentials
-        env:
-          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY_B64 }}
         run: |
           mkdir -p credentials
-          printf '%s' "$GCP_SA_KEY" > credentials/service_account.json
+          echo "${{ secrets.GCP_SA_KEY_B64 }}" | base64 -d > credentials/service_account.json
           
       - name: Stage 1 — Fetch sectoral TRI from niftyindices.com
         run: python src/fetch_sectoral.py
