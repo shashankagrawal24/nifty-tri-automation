@@ -8,6 +8,14 @@ Hits two endpoints on niftyindices.com:
 Writes a single dated JSON snapshot to data/<YYYY-MM-DD>.json so Stage 2
 can read it independently. If this stage fails, the failure is isolated
 (no half-written sheet).
+
+NOTE (endpoint migration, Jul 2026):
+  niftyindices.com moved its data API off the old /Backpage.aspx/ path.
+  The old path now 302-redirects to /Sitefinity/Login, so requests follows
+  the redirect and .json() dies on the HTML login page. The live site now
+  calls /BackPage/<method> (capital B and P, no .aspx) and returns a BARE
+  JSON array (no "d" envelope). Content-Type comes back as text/html but the
+  body is JSON, so requests parses it regardless.
 """
 
 import json
@@ -18,9 +26,9 @@ from pathlib import Path
 
 import requests
 
-# Endpoints
-PRICE_URL = "https://www.niftyindices.com/Backpage.aspx/getHistoricaldatatabletoString"
-TRI_URL = "https://www.niftyindices.com/Backpage.aspx/getTotalReturnIndexString"
+# Endpoints (new /BackPage/ path — capital B/P, no .aspx)
+PRICE_URL = "https://www.niftyindices.com/BackPage/getHistoricaldatatabletoString"
+TRI_URL = "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
 
 # Indices to fetch
 # Note: niftyindices.com uses specific naming. If a request returns empty,
@@ -63,7 +71,7 @@ def fmt_date(d: date) -> str:
 
 
 def _post(url: str, index_name: str, start: date, end: date) -> list[dict]:
-    """POST to a niftyindices endpoint and unwrap the doubly-encoded JSON."""
+    """POST to a niftyindices endpoint and return the JSON array of rows."""
     payload = {
         "cinfo": json.dumps({
             "name": index_name,
@@ -74,10 +82,17 @@ def _post(url: str, index_name: str, start: date, end: date) -> list[dict]:
     }
     resp = requests.post(url, json=payload, headers=HEADERS, timeout=30)
     resp.raise_for_status()
-    outer = resp.json()
-    # The response wraps the actual payload in a "d" field as a JSON string.
-    inner_raw = outer.get("d", "[]")
-    return json.loads(inner_raw)
+
+    # New endpoint returns a bare JSON array (no "d" envelope). A 302 to the
+    # Sitefinity login page comes back as 200 HTML that clears raise_for_status,
+    # so guard on the parsed shape to fail loudly if the API moves again.
+    data = resp.json()
+    if not isinstance(data, list):
+        raise RuntimeError(
+            f"Expected a JSON array from {url}, got {type(data).__name__} "
+            f"(endpoint moved or auth redirect?): {resp.text[:160]!r}"
+        )
+    return data
 
 
 def fetch_tri(index_name: str, start: date, end: date) -> list[dict]:
