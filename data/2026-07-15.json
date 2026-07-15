@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-15T07:21:49Z",
+  "fetched_at_utc": "2026-07-15T16:49:58Z",
   "window": {
     "start": "2026-07-10",
     "end": "2026-07-15"
@@ -7,21 +7,28 @@
   "tri": {
     "NIFTY 50": [
       {
-        "RequestNumber": "TRI63919696910117154900",
+        "RequestNumber": "TRI63919730998785114100",
+        "Index Name": "Nifty 50",
+        "Date": "15 Jul 2026",
+        "TotalReturnsIndex": "36497.59",
+        "NTR_Value": "31712.99"
+      },
+      {
+        "RequestNumber": "TRI63919730998785114100",
         "Index Name": "Nifty 50",
         "Date": "14 Jul 2026",
         "TotalReturnsIndex": "36453.46",
         "NTR_Value": "31675.49"
       },
       {
-        "RequestNumber": "TRI63919696910117154900",
+        "RequestNumber": "TRI63919730998785114100",
         "Index Name": "Nifty 50",
         "Date": "13 Jul 2026",
         "TotalReturnsIndex": "36694.40",
         "NTR_Value": "31884.85"
       },
       {
-        "RequestNumber": "TRI63919696910117154900",
+        "RequestNumber": "TRI63919730998785114100",
         "Index Name": "Nifty 50",
         "Date": "10 Jul 2026",
         "TotalReturnsIndex": "36688.15",
@@ -30,21 +37,28 @@
     ],
     "NIFTY 100": [
       {
-        "RequestNumber": "TRI63919696910851534900",
+        "RequestNumber": "TRI63919730999496240100",
+        "Index Name": "Nifty 100",
+        "Date": "15 Jul 2026",
+        "TotalReturnsIndex": "34780.25",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63919730999496240100",
         "Index Name": "Nifty 100",
         "Date": "14 Jul 2026",
         "TotalReturnsIndex": "34719.73",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696910851534900",
+        "RequestNumber": "TRI63919730999496240100",
         "Index Name": "Nifty 100",
         "Date": "13 Jul 2026",
         "TotalReturnsIndex": "34929.98",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696910851534900",
+        "RequestNumber": "TRI63919730999496240100",
         "Index Name": "Nifty 100",
         "Date": "10 Jul 2026",
         "TotalReturnsIndex": "34949.79",
@@ -53,21 +67,28 @@
     ],
     "NIFTY 500": [
       {
-        "RequestNumber": "TRI63919696911617307100",
+        "RequestNumber": "TRI63919731000247563400",
+        "Index Name": "Nifty 500",
+        "Date": "15 Jul 2026",
+        "TotalReturnsIndex": "37332.65",
+        "NTR_Value": "34344.04"
+      },
+      {
+        "RequestNumber": "TRI63919731000247563400",
         "Index Name": "Nifty 500",
         "Date": "14 Jul 2026",
         "TotalReturnsIndex": "37226.58",
         "NTR_Value": "34247.02"
       },
       {
-        "RequestNumber": "TRI63919696911617307100",
+        "RequestNumber": "TRI63919731000247563400",
         "Index Name": "Nifty 500",
         "Date": "13 Jul 2026",
         "TotalReturnsIndex": "37462.83",
         "NTR_Value": "34464.57"
       },
       {
-        "RequestNumber": "TRI63919696911617307100",
+        "RequestNumber": "TRI63919731000247563400",
         "Index Name": "Nifty 500",
         "Date": "10 Jul 2026",
         "TotalReturnsIndex": "37465.01",
@@ -76,21 +97,28 @@
     ],
     "NIFTY MIDCAP 150": [
       {
-        "RequestNumber": "TRI63919696912367165000",
+        "RequestNumber": "TRI63919731001060066200",
+        "Index Name": "Nifty Midcap 150",
+        "Date": "15 Jul 2026",
+        "TotalReturnsIndex": "29542.57",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63919731001060066200",
         "Index Name": "Nifty Midcap 150",
         "Date": "14 Jul 2026",
         "TotalReturnsIndex": "29415.26",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696912367165000",
+        "RequestNumber": "TRI63919731001060066200",
         "Index Name": "Nifty Midcap 150",
         "Date": "13 Jul 2026",
         "TotalReturnsIndex": "29560.43",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696912367165000",
+        "RequestNumber": "TRI63919731001060066200",
         "Index Name": "Nifty Midcap 150",
         "Date": "10 Jul 2026",
         "TotalReturnsIndex": "29559.27",
@@ -99,21 +127,28 @@
     ],
     "NIFTY SMALLCAP 250": [
       {
-        "RequestNumber": "TRI63919696913071422000",
+        "RequestNumber": "TRI63919731001769524600",
+        "Index Name": "Nifty Smallcap 250",
+        "Date": "15 Jul 2026",
+        "TotalReturnsIndex": "23063.20",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63919731001769524600",
         "Index Name": "Nifty Smallcap 250",
         "Date": "14 Jul 2026",
         "TotalReturnsIndex": "22904.84",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696913071422000",
+        "RequestNumber": "TRI63919731001769524600",
         "Index Name": "Nifty Smallcap 250",
         "Date": "13 Jul 2026",
         "TotalReturnsIndex": "23153.56",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696913071422000",
+        "RequestNumber": "TRI63919731001769524600",
         "Index Name": "Nifty Smallcap 250",
         "Date": "10 Jul 2026",
         "TotalReturnsIndex": "23086.09",
@@ -122,21 +157,28 @@
     ],
     "NIFTY LARGEMIDCAP 250": [
       {
-        "RequestNumber": "TRI63919696913805818500",
+        "RequestNumber": "TRI63919731002466310900",
+        "Index Name": "NIFTY LargeMidcap 250",
+        "Date": "15 Jul 2026",
+        "TotalReturnsIndex": "21752.74",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63919731002466310900",
         "Index Name": "NIFTY LargeMidcap 250",
         "Date": "14 Jul 2026",
         "TotalReturnsIndex": "21686.81",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696913805818500",
+        "RequestNumber": "TRI63919731002466310900",
         "Index Name": "NIFTY LargeMidcap 250",
         "Date": "13 Jul 2026",
         "TotalReturnsIndex": "21805.95",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696913805818500",
+        "RequestNumber": "TRI63919731002466310900",
         "Index Name": "NIFTY LargeMidcap 250",
         "Date": "10 Jul 2026",
         "TotalReturnsIndex": "21811.68",
@@ -145,21 +187,28 @@
     ],
     "NIFTY500 MULTICAP 50:25:25": [
       {
-        "RequestNumber": "TRI63919696914524552500",
+        "RequestNumber": "TRI63919731003169440400",
+        "Index Name": "Nifty500 Multicap 50:25:25",
+        "Date": "15 Jul 2026",
+        "TotalReturnsIndex": "21650.78",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63919731003169440400",
         "Index Name": "Nifty500 Multicap 50:25:25",
         "Date": "14 Jul 2026",
         "TotalReturnsIndex": "21571.15",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696914524552500",
+        "RequestNumber": "TRI63919731003169440400",
         "Index Name": "Nifty500 Multicap 50:25:25",
         "Date": "13 Jul 2026",
         "TotalReturnsIndex": "21721.79",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696914524552500",
+        "RequestNumber": "TRI63919731003169440400",
         "Index Name": "Nifty500 Multicap 50:25:25",
         "Date": "10 Jul 2026",
         "TotalReturnsIndex": "21711.71",
@@ -168,21 +217,28 @@
     ],
     "NIFTY REITS & INVITS": [
       {
-        "RequestNumber": "TRI63919696915258927000",
+        "RequestNumber": "TRI63919731003894573100",
+        "Index Name": "Nifty REITs & InvITs",
+        "Date": "15 Jul 2026",
+        "TotalReturnsIndex": "2322.71",
+        "NTR_Value": "-"
+      },
+      {
+        "RequestNumber": "TRI63919731003894573100",
         "Index Name": "Nifty REITs & InvITs",
         "Date": "14 Jul 2026",
         "TotalReturnsIndex": "2317.29",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696915258927000",
+        "RequestNumber": "TRI63919731003894573100",
         "Index Name": "Nifty REITs & InvITs",
         "Date": "13 Jul 2026",
         "TotalReturnsIndex": "2319.51",
         "NTR_Value": "-"
       },
       {
-        "RequestNumber": "TRI63919696915258927000",
+        "RequestNumber": "TRI63919731003894573100",
         "Index Name": "Nifty REITs & InvITs",
         "Date": "10 Jul 2026",
         "TotalReturnsIndex": "2326.27",
@@ -193,7 +249,17 @@
   "price": {
     "NIFTY 1D RATE INDEX": [
       {
-        "RequestNumber": "His63919696916040198400",
+        "RequestNumber": "His63919731004622568100",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty 1D Rate Index",
+        "HistoricalDate": "15 Jul 2026",
+        "OPEN": "-",
+        "HIGH": "-",
+        "LOW": "-",
+        "CLOSE": "2580.42"
+      },
+      {
+        "RequestNumber": "His63919731004622568100",
         "Index Name": "",
         "INDEX_NAME": "Nifty 1D Rate Index",
         "HistoricalDate": "14 Jul 2026",
@@ -203,7 +269,7 @@
         "CLOSE": "2580.06"
       },
       {
-        "RequestNumber": "His63919696916040198400",
+        "RequestNumber": "His63919731004622568100",
         "Index Name": "",
         "INDEX_NAME": "Nifty 1D Rate Index",
         "HistoricalDate": "13 Jul 2026",
@@ -213,7 +279,7 @@
         "CLOSE": "2579.70"
       },
       {
-        "RequestNumber": "His63919696916040198400",
+        "RequestNumber": "His63919731004622568100",
         "Index Name": "",
         "INDEX_NAME": "Nifty 1D Rate Index",
         "HistoricalDate": "10 Jul 2026",
@@ -225,7 +291,17 @@
     ],
     "NIFTY COMPOSITE G-SEC INDEX": [
       {
-        "RequestNumber": "His63919696916748426400",
+        "RequestNumber": "His63919731005332090700",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty Composite G-sec Index",
+        "HistoricalDate": "15 Jul 2026",
+        "OPEN": "3133.03",
+        "HIGH": "3144.1",
+        "LOW": "3133.03",
+        "CLOSE": "3138.62"
+      },
+      {
+        "RequestNumber": "His63919731005332090700",
         "Index Name": "",
         "INDEX_NAME": "Nifty Composite G-sec Index",
         "HistoricalDate": "14 Jul 2026",
@@ -235,7 +311,7 @@
         "CLOSE": "3132.45"
       },
       {
-        "RequestNumber": "His63919696916748426400",
+        "RequestNumber": "His63919731005332090700",
         "Index Name": "",
         "INDEX_NAME": "Nifty Composite G-sec Index",
         "HistoricalDate": "13 Jul 2026",
@@ -245,7 +321,7 @@
         "CLOSE": "3146.45"
       },
       {
-        "RequestNumber": "His63919696916748426400",
+        "RequestNumber": "His63919731005332090700",
         "Index Name": "",
         "INDEX_NAME": "Nifty Composite G-sec Index",
         "HistoricalDate": "10 Jul 2026",
@@ -257,7 +333,17 @@
     ],
     "NIFTY 500": [
       {
-        "RequestNumber": "His63919696917498436100",
+        "RequestNumber": "His63919731006035225400",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty 500",
+        "HistoricalDate": "15 Jul 2026",
+        "OPEN": "23250.85",
+        "HIGH": "23368.9",
+        "LOW": "23203.95",
+        "CLOSE": "23263.90"
+      },
+      {
+        "RequestNumber": "His63919731006035225400",
         "Index Name": "",
         "INDEX_NAME": "Nifty 500",
         "HistoricalDate": "14 Jul 2026",
@@ -267,7 +353,7 @@
         "CLOSE": "23199.45"
       },
       {
-        "RequestNumber": "His63919696917498436100",
+        "RequestNumber": "His63919731006035225400",
         "Index Name": "",
         "INDEX_NAME": "Nifty 500",
         "HistoricalDate": "13 Jul 2026",
@@ -277,7 +363,7 @@
         "CLOSE": "23347.05"
       },
       {
-        "RequestNumber": "His63919696917498436100",
+        "RequestNumber": "His63919731006035225400",
         "Index Name": "",
         "INDEX_NAME": "Nifty 500",
         "HistoricalDate": "10 Jul 2026",
@@ -289,7 +375,17 @@
     ],
     "NIFTY 50": [
       {
-        "RequestNumber": "His63919696918250285400",
+        "RequestNumber": "His63919731006738358500",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty 50",
+        "HistoricalDate": "15 Jul 2026",
+        "OPEN": "24085.85",
+        "HIGH": "24220.35",
+        "LOW": "24010.55",
+        "CLOSE": "24078.50"
+      },
+      {
+        "RequestNumber": "His63919731006738358500",
         "Index Name": "",
         "INDEX_NAME": "Nifty 50",
         "HistoricalDate": "14 Jul 2026",
@@ -299,7 +395,7 @@
         "CLOSE": "24052.05"
       },
       {
-        "RequestNumber": "His63919696918250285400",
+        "RequestNumber": "His63919731006738358500",
         "Index Name": "",
         "INDEX_NAME": "Nifty 50",
         "HistoricalDate": "13 Jul 2026",
@@ -309,7 +405,7 @@
         "CLOSE": "24211.00"
       },
       {
-        "RequestNumber": "His63919696918250285400",
+        "RequestNumber": "His63919731006738358500",
         "Index Name": "",
         "INDEX_NAME": "Nifty 50",
         "HistoricalDate": "10 Jul 2026",
@@ -321,7 +417,17 @@
     ],
     "NIFTY MIDSMALLCAP 400": [
       {
-        "RequestNumber": "His63919696918969021100",
+        "RequestNumber": "His63919731007439566500",
+        "Index Name": "",
+        "INDEX_NAME": "Nifty MidSmallcap 400",
+        "HistoricalDate": "15 Jul 2026",
+        "OPEN": "21270.5",
+        "HIGH": "21379.55",
+        "LOW": "21257.25",
+        "CLOSE": "21314.70"
+      },
+      {
+        "RequestNumber": "His63919731007439566500",
         "Index Name": "",
         "INDEX_NAME": "Nifty MidSmallcap 400",
         "HistoricalDate": "14 Jul 2026",
@@ -331,7 +437,7 @@
         "CLOSE": "21204.65"
       },
       {
-        "RequestNumber": "His63919696918969021100",
+        "RequestNumber": "His63919731007439566500",
         "Index Name": "",
         "INDEX_NAME": "Nifty MidSmallcap 400",
         "HistoricalDate": "13 Jul 2026",
@@ -341,7 +447,7 @@
         "CLOSE": "21353.10"
       },
       {
-        "RequestNumber": "His63919696918969021100",
+        "RequestNumber": "His63919731007439566500",
         "Index Name": "",
         "INDEX_NAME": "Nifty MidSmallcap 400",
         "HistoricalDate": "10 Jul 2026",
