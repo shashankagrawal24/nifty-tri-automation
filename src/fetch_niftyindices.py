@@ -46,6 +46,10 @@ TRI_INDICES = [
 ]
 
 PRICE_INDICES = [
+    "NIFTY 1D RATE INDEX",          # Fixed Income > Money Market (only CLOSE is populated; OHL come back as "-")
+    "NIFTY COMPOSITE G-SEC INDEX",  # Fixed Income > Government Securities
+    "NIFTY 500",                    # Also fetched as TRI above; this is the price close
+    "NIFTY 50",                     # Also fetched as TRI above; this is the price close
     "NIFTY MIDSMALLCAP 400",
 ]
 
