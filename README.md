@@ -30,6 +30,10 @@ If Stage 1 fails (endpoint change, network blip), Stage 2 doesn't run and the sh
 | Z            | NIFTY500 MULTICAP 50:25:25         | TRI        |
 | AA           | NIFTY LARGEMIDCAP 250              | TRI        |
 | AB           | NIFTY REITS & INVITS               | TRI        |
+| AC           | NIFTY 1D RATE INDEX                | Price (close) |
+| AD           | NIFTY COMPOSITE G-SEC INDEX        | Price (close) |
+| AE           | NIFTY 500                          | Price (close) |
+| AF           | NIFTY 50                           | Price (close) |
 | AG           | NIFTY MIDSMALLCAP 400              | Price (close) |
 
 ## One-time setup
