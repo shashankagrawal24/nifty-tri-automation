@@ -46,6 +46,10 @@ TRI_COLUMNS = {
     "NIFTY REITS & INVITS": "AB",
 }
 PRICE_COLUMNS = {
+    "NIFTY 1D RATE INDEX": "AC",
+    "NIFTY COMPOSITE G-SEC INDEX": "AD",
+    "NIFTY 500": "AE",
+    "NIFTY 50": "AF",
     "NIFTY MIDSMALLCAP 400": "AG",
 }
 
@@ -80,13 +84,19 @@ def clean_number(s) -> float:
         return None
 
 
-def build_value_map(snapshot: dict) -> dict[str, dict[date, float]]:
+def build_value_maps(snapshot: dict) -> tuple[dict[str, dict[date, float]], dict[str, dict[date, float]]]:
     """
-    Return {index_name: {trading_date: value, ...}, ...}.
+    Return (tri_map, price_map), each {index_name: {trading_date: value}}.
+    Kept as two separate maps because an index (e.g. NIFTY 50) can appear
+    in BOTH groups — TRI in one column, price close in another — and a
+    flat dict would silently overwrite one with the other.
+
     For TRI rows: look for 'TotalReturnsIndex' (also tries 'TR' fallbacks).
-    For Price rows: look for 'CLOSE'.
+    For Price rows: look for 'CLOSE'. Fixed income indices (e.g. NIFTY 1D
+    RATE INDEX) return '-' for OPEN/HIGH/LOW but a valid CLOSE.
     """
-    value_map: dict[str, dict[date, float]] = {}
+    tri_map: dict[str, dict[date, float]] = {}
+    price_map: dict[str, dict[date, float]] = {}
 
     for name, rows in snapshot.get("tri", {}).items():
         per_date: dict[date, float] = {}
@@ -98,28 +108,30 @@ def build_value_map(snapshot: dict) -> dict[str, dict[date, float]]:
                 or r.get("TRI")
                 or r.get("TotalReturnIndex")
             )
-            if not date_str or val is None:
+            num = clean_number(val)
+            if not date_str or num is None:
                 continue
             try:
-                per_date[parse_niftydate(date_str)] = clean_number(val)
+                per_date[parse_niftydate(date_str)] = num
             except ValueError:
                 continue
-        value_map[name] = per_date
+        tri_map[name] = per_date
 
     for name, rows in snapshot.get("price", {}).items():
         per_date = {}
         for r in rows:
             date_str = r.get("HistoricalDate") or r.get("Date") or r.get("TradeDate")
             val = r.get("CLOSE") or r.get("Close")
-            if not date_str or val is None:
+            num = clean_number(val)  # '-' and '' parse to None and are skipped
+            if not date_str or num is None:
                 continue
             try:
-                per_date[parse_niftydate(date_str)] = clean_number(val)
+                per_date[parse_niftydate(date_str)] = num
             except ValueError:
                 continue
-        value_map[name] = per_date
+        price_map[name] = per_date
 
-    return value_map
+    return tri_map, price_map
 
 
 def value_with_forward_fill(per_date: dict[date, float], target: date) -> float | None:
@@ -140,7 +152,7 @@ def main() -> None:
         sys.exit(1)
 
     snapshot = json.loads(snapshot_path.read_text())
-    value_map = build_value_map(snapshot)
+    tri_map, price_map = build_value_maps(snapshot)
 
     # Auth
     sa_path = os.environ.get("GCP_SA_PATH", "credentials/service_account.json")
@@ -152,19 +164,24 @@ def main() -> None:
     updates: list[dict] = []
     days_to_write = [today - timedelta(days=i) for i in range(WRITE_WINDOW_DAYS)]
 
+    groups = [
+        ("TRI", TRI_COLUMNS, tri_map),
+        ("PRC", PRICE_COLUMNS, price_map),
+    ]
     for d in days_to_write:
         row = row_for_date(d)
-        for name, col in {**TRI_COLUMNS, **PRICE_COLUMNS}.items():
-            per_date = value_map.get(name, {})
-            val = value_with_forward_fill(per_date, d)
-            if val is None:
-                print(f"  skip {d} {col}{row} {name}: no value", file=sys.stderr)
-                continue
-            updates.append({
-                "range": f"{col}{row}",
-                "values": [[val]],
-            })
-            print(f"  queue {d} {col}{row} {name} = {val}")
+        for kind, columns, vmap in groups:
+            for name, col in columns.items():
+                per_date = vmap.get(name, {})
+                val = value_with_forward_fill(per_date, d)
+                if val is None:
+                    print(f"  skip {d} {col}{row} [{kind}] {name}: no value", file=sys.stderr)
+                    continue
+                updates.append({
+                    "range": f"{col}{row}",
+                    "values": [[val]],
+                })
+                print(f"  queue {d} {col}{row} [{kind}] {name} = {val}")
 
     if not updates:
         print("Nothing to write.", file=sys.stderr)
