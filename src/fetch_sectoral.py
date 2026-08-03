@@ -15,8 +15,12 @@ import requests
 
 # NOTE: niftyindices.com migrated this endpoint from /Backpage.aspx/<method>
 # to /BackPage/<method> — verified via browser Network tab 2026-08-03.
-# If this fails again with "Expecting value: line 1 column 2 (char 1)" the
-# endpoint has likely moved again; check /reports/historical-data Network tab.
+# The response envelope also changed: old endpoint returned {"d": "<escaped
+# JSON string>"}, new endpoint returns the row list directly.
+# Failure signatures to watch for:
+#   - "Expecting value: line 1 column 2 (char 1)" — URL likely moved again
+#   - "'list' object has no attribute 'get'" — response envelope changed again
+# Both cases: check /reports/historical-data Network tab and update accordingly.
 TRI_URL = "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
 
 # Exact names from the live niftyindices.com dropdown (verified 2026-08-03).
@@ -74,8 +78,14 @@ def fetch_tri(index_name: str, start: date, end: date) -> list[dict]:
     # On failure, shows whether we got HTML, empty body, redirect, or auth wall.
     print(f"[DEBUG] {index_name} status={resp.status_code} body[:200]={resp.text[:200]!r}")
     resp.raise_for_status()
-    outer = resp.json()
-    return json.loads(outer.get("d", "[]"))
+    data = resp.json()
+    # Endpoint migration also changed the response envelope: old /Backpage.aspx/
+    # wrapped the payload in {"d": "<escaped JSON string>"}, new /BackPage/
+    # returns the list of rows directly. Handle both so a future flip-flop
+    # doesn't break us again.
+    if isinstance(data, dict) and "d" in data:
+        return json.loads(data["d"])
+    return data
 
 
 def main() -> None:
