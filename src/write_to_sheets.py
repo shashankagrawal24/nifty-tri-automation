@@ -17,10 +17,12 @@ once per run instead of 27 times (3 days × 9 columns).
 import json
 import os
 import sys
+import time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import gspread
+from gspread.exceptions import APIError
 from google.oauth2.service_account import Credentials
 
 SHEET_ID = "1Cf06j1pQKrHfjv48Rkh2lZpElZDlqE7hD3M3NZP9iQE"
@@ -32,6 +34,11 @@ BASE_ROW = 6
 # Number of calendar days back from today to write (inclusive of today).
 # Covers a Friday-Monday weekend with one buffer day.
 WRITE_WINDOW_DAYS = 3
+
+# Google APIs occasionally return temporary 5xx/429 responses. Retry only
+# these transient statuses with exponential backoff, then fail visibly.
+RETRY_ATTEMPTS = 5
+RETRY_BASE_DELAY_SECONDS = 2
 
 # Column targets per index. Keys must exactly match the index names used
 # in fetch_niftyindices.py.
@@ -144,6 +151,25 @@ def value_with_forward_fill(per_date: dict[date, float], target: date) -> float 
     return per_date[max(candidates)]
 
 
+def call_with_retries(operation, description: str):
+    """Run a Sheets operation, retrying transient API responses."""
+    transient_statuses = {429, 500, 502, 503, 504}
+    for attempt in range(1, RETRY_ATTEMPTS + 1):
+        try:
+            return operation()
+        except APIError as exc:
+            status_code = getattr(exc.response, "status_code", None)
+            if status_code not in transient_statuses or attempt == RETRY_ATTEMPTS:
+                raise
+            delay = RETRY_BASE_DELAY_SECONDS * (2 ** (attempt - 1))
+            print(
+                f"{description} returned HTTP {status_code}; retrying in {delay}s "
+                f"(attempt {attempt}/{RETRY_ATTEMPTS})",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+
+
 def main() -> None:
     today = date.today()
     snapshot_path = Path(__file__).resolve().parent.parent / "data" / f"{today.isoformat()}.json"
@@ -158,7 +184,12 @@ def main() -> None:
     sa_path = os.environ.get("GCP_SA_PATH", "credentials/service_account.json")
     creds = Credentials.from_service_account_file(sa_path, scopes=SCOPES)
     gc = gspread.authorize(creds)
-    ws = gc.open_by_key(SHEET_ID).worksheet(WORKSHEET_NAME)
+    spreadsheet = call_with_retries(
+        lambda: gc.open_by_key(SHEET_ID), "Open spreadsheet"
+    )
+    ws = call_with_retries(
+        lambda: spreadsheet.worksheet(WORKSHEET_NAME), "Open worksheet"
+    )
 
     # Build batch updates for last N calendar days
     updates: list[dict] = []
@@ -188,7 +219,10 @@ def main() -> None:
         sys.exit(1)
 
     # value_input_option='USER_ENTERED' so Sheets parses it as a number
-    ws.batch_update(updates, value_input_option="USER_ENTERED")
+    call_with_retries(
+        lambda: ws.batch_update(updates, value_input_option="USER_ENTERED"),
+        "Write batch updates",
+    )
     print(f"\nWrote {len(updates)} cells to '{WORKSHEET_NAME}'.")
 
 
